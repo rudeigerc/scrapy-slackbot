@@ -1,6 +1,7 @@
 # scrapy-slackbot
 
 [![Build Status](https://travis-ci.org/rudeigerc/scrapy-slackbot.svg?branch=master)](https://travis-ci.org/rudeigerc/scrapy-slackbot)
+[![LICENSE](https://img.shields.io/github/license/rudeigerc/scrapy-slackbot.svg)](https://github.com/rudeigerc/scrapy-slackbot/blob/master/LICENSE)
 
 A Scrapy extension to send notification to the Slack channel.
 
