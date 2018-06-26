@@ -1,0 +1,11 @@
+language: python
+python: 3.6
+install: pip install -r requirements.txt
+deploy:
+  provider: pypi
+  distributions: sdist bdist_wheel
+  user: rudeigerc
+  password:
+    secure: BoeiL3aU0XYZ09MQBIyCdRam+tiN8mfSkOvIKFZT+TxaMjHw7e4yvQm1dlPPQ4iVtSC41+W5DoXrEcBbYQqw3vv4eVl2jVpS2LdyeZiQ/aD+9sKBZGYOJVaUFfXDM0Y49XHruP3xDQpKFdZLCFiNnhDfXwFB1vwL+yZYA+uMQJyDWd+FTilWgmW9qH/MOHFBN/efM4h+p0giaRkTXWfEBqLWZZIlMsrfdvhMqNSGNQkBxpDwaWVEErJsmUgmqu8b7M1JFX0zt2S+xOhxLliluVwN1Ql0eiEnZRs5e5ab0vc0tLs4Ol4OSNpjo9P4qNKPLG9GskQCPkLz4k6QfqSan/OuRS2DpfrK+xSY/XzXAtzLyfeg8uho+t3Y/HyycQ7+Ag5f33R9x33pAGKRXitU9S0AWWN90chRbiIeN2x/okQWSc8+53gRFYgd4t/SieAQYgbO6YfQB4s8KAc7GWxeL7+4X9HHU/hdTLgwsZXF+OB5d39W0oVsUvySue++gFn6PncPmxv88UTn1aJWnfkv31w23hW9TSRbx1/wxtRF/b7ywEoqzbUPcrnB8BGLIqf3bk8Jya7gxYihiVmJ+m1EBlb32YzbrrW9dPlnTo1Avnp5mNYgvNXLY3G4wA+7gP8RxTEnrW3a7S5EW3lLdFImAirnSaPpBos1D7rA63AwVpw=
+  on:
+    tags: true

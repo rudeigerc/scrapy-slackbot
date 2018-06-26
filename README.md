@@ -1,5 +1,7 @@
 # scrapy-slackbot
 
+[![Build Status](https://travis-ci.org/rudeigerc/scrapy-slackbot.svg?branch=master)](https://travis-ci.org/rudeigerc/scrapy-slackbot)
+
 A Scrapy extension to send notification to the Slack channel.
 
 ## Installation
