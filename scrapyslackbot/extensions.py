@@ -7,6 +7,7 @@ from scrapy import signals
 from scrapy.exceptions import NotConfigured
 from slackbot.slackclient import SlackClient
 
+
 class SlackBot(object):
 
     def __init__(self, stats, slack_bot_token, channel):
