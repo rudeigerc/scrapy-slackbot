@@ -1,0 +1,37 @@
+[project]
+name = "scrapy-slackbot"
+version = "0.2.0"
+description = "A Scrapy extension to send notification to the Slack channel."
+authors = [
+    {name = "Yuchen Cheng", email = "rudeigerc@gmail.com"},
+]
+dependencies = [
+    "Scrapy>=2.6.2",
+    "slack-sdk>=3.18.1",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+keywords = ["scrapy", "slack", "slackbot"]
+license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/rudeigerc/scrapy-slackbot"
+Repository = "https://github.com/rudeigerc/scrapy-slackbot"
+
+[project.optional-dependencies]
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "flake8>=5.0.4",
+    "black>=22.6.0",
+    "isort>=5.10.1",
+]
+
+[tool.isort]
+profile = "black"
+lines_after_imports = 2

@@ -1,13 +1,13 @@
 # scrapy-slackbot
 
-[![Build Status](https://travis-ci.org/rudeigerc/scrapy-slackbot.svg?branch=master)](https://travis-ci.org/rudeigerc/scrapy-slackbot)
+[![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
 [![LICENSE](https://img.shields.io/github/license/rudeigerc/scrapy-slackbot.svg)](https://github.com/rudeigerc/scrapy-slackbot/blob/master/LICENSE)
 
 A Scrapy extension to send notification to the Slack channel.
 
 ## Installation
 
-```bash
+```shell
 $ pip install scrapy-slackbot
 ```
 
@@ -38,6 +38,12 @@ Follow the instructions of [Slack API](https://api.slack.com/slack-apps), visit 
 ### SLACK_CHANNEL
 
 The ID of the channel in your workspace.
+
+## Development
+
+```shell
+$ pdm install
+```
 
 ## Demo
 
