@@ -1,9 +1,10 @@
 # scrapy-slackbot
 
 [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm.fming.dev)
+[![pypi](https://img.shields.io/pypi/v/scrapy-slackbot)](https://pypi.org/project/scrapy-slackbot/)
 [![LICENSE](https://img.shields.io/github/license/rudeigerc/scrapy-slackbot.svg)](https://github.com/rudeigerc/scrapy-slackbot/blob/master/LICENSE)
 
-A Scrapy extension to send notification to the Slack channel.
+A [Scrapy](https://scrapy.org/) extension for sending notification to Slack channels.
 
 ## Installation
 
@@ -41,14 +42,16 @@ The ID of the channel in your workspace.
 
 ## Development
 
+We use [PDM](https://pdm.fming.dev/) as the package and dependency manager. Please make sure you have installed PDM at first.
+
 ```shell
 $ pdm install
 ```
 
 ## Demo
 
-![demo](demo.jpg)
+![demo](docs/assets/demo.jpg)
 
 ## License
 
-MIT
+The project is licensed under the MIT License.
