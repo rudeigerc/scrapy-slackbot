@@ -1,6 +1,6 @@
 [project]
 name = "scrapy-slackbot"
-version = "0.2.0"
+version = "0.3.0"
 description = "A Scrapy extension to send notification to the Slack channel."
 authors = [
     {name = "Yuchen Cheng", email = "rudeigerc@gmail.com"},
