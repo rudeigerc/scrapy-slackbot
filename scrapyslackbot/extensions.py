@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 
 from scrapy import signals
 from scrapy.exceptions import NotConfigured
-from slack import WebClient
+from slack_sdk import WebClient
 
 
 class SlackBot(object):
